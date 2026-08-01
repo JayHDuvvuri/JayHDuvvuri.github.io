@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#160f0b" />
+    <meta name="description" content="Jay Duvvuri — Electrical & Computer Engineering, AI, robotics, and space systems." />
+    <title>Jay Duvvuri · Engineering Portfolio</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      if (window.location.protocol === 'file:') {
+        document.getElementById('root').innerHTML = `
+          <main style="min-height:100vh;display:grid;place-items:center;padding:32px;background:#100b08;color:#f2e8d3;font-family:Georgia,serif;text-align:center">
+            <section style="max-width:620px;border:1px solid #8c6b35;padding:48px;background:#1b120c;box-shadow:0 24px 60px #000">
+              <p style="color:#d0a85d;letter-spacing:.2em;font:12px Arial,sans-serif">LOCAL PREVIEW</p>
+              <h1 style="font-size:42px;margin:18px 0">The library needs the Vite server.</h1>
+              <p style="color:#b5a68d;line-height:1.7">Open a terminal in this folder, run <code style="color:#edc779">npm.cmd run dev</code>, then open the Local URL shown in the terminal.</p>
+            </section>
+          </main>`
+      }
+    </script>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
